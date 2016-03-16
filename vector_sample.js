@@ -1,4 +1,5 @@
-'use strict' 
+'use strict'
+
 let Vector = require("./vector.js")
 
 let vector_a = new Vector([1,-2,3.3])
