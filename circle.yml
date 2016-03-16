@@ -1,3 +1,5 @@
 machine:
   node:
       version: 4.2.2
+  environment:
+      MOCHA_FILE: "$CIRCLE_TEST_REPORTS/test-results.xml
