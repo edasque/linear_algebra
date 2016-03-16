@@ -1,0 +1,35 @@
+{
+  "name": "linear_algebra",
+  "version": "0.0.1",
+  "description": "JS library built following Udacity linear algebra course",
+  "main": "vector_sample",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "babel-cli": "^6.6.5",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "mocha": "^2.4.5"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edasque/linear_algebra.git"
+  },
+  "keywords": [
+    "linear",
+    "algebra",
+    "udacity",
+    "course"
+  ],
+  "author": "Erik Dasque",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/edasque/linear_algebra/issues"
+  },
+  "homepage": "https://github.com/edasque/linear_algebra#readme"
+}
