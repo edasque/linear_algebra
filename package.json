@@ -1,8 +1,8 @@
 {
   "name": "linear_algebra",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "JS library built following Udacity linear algebra course",
-  "main": "vector_sample",
+  "main": "vector_test",
   "directories": {
     "test": "test"
   },

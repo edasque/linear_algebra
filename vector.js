@@ -5,7 +5,7 @@ var _ = require("underscore")
   class Vector {
     constructor(coordinates) {
       if (!Array.isArray(coordinates)) throw new Error("Error in creating Vector:coordinates are not an array")
-      if (coordinates.length==0) throw new Error("Error in creating Vector: coordinates array is empty");
+      if (coordinates.length===0) throw new Error("Error in creating Vector: coordinates array is empty");
 
       this.coordinates = coordinates
       this.dimension = coordinates.length
@@ -63,12 +63,12 @@ var _ = require("underscore")
     normalized()
     {
       var magnitude = this.magnitude()
-      if (magnitude==0) throw new Error("ZeroVectorNormalizationError")
+      if (magnitude===0) throw new Error("ZeroVectorNormalizationError")
         else return this.times_scalar(1.0/magnitude)
     }
     isOrthogonalTo(v)
     {
-      return (this.dotProduct(v)==0)
+      return (this.dotProduct(v)===0)
     }
     isParallelTo(v)
     {
